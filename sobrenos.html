@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d5eb4a6803.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Pizzaria Pritex</title>
+</head>
+
+<body>
+  <header>
+    <div class="contato">
+      <div class="social-field">
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+      <div class="social-field">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="social-field">
+        <a href="#">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div id="img">
+      <img src="pizzatex.png" alt="pizzatex">
+    </div>
+    <nav class="topnav" id="myTopnav">
+      <a href="./index.html" class="active">Home</a>
+      <a href="./cardapio.php">Cardapio</a>
+      <a href="#about">Contato</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+
+    <div id="cabecalho">
+      <h1>PizzaTex</h1>
+    </div>
+  </header>
+
+  <section id="container">
+
+    <p>A PizzaTex veio da família Teixeira que por curio&shy;sidade aprendeu a fazer pizza caseira pelo YouTube, e todos
+      que chegaram a esperi&shy;mentar da pizza, aprovaram e indicaram!</p>
+    <p>Como nós da família Teixeira gostamos de pizza bem recheada com sabor de dar água na boca, queremos
+      compar&shy;tilhar com vocês o nosso sabor PizzaTex! Vocês vão amar a melhor pizza de Planal&shy;tina Goiás.</p>
+
+  </section>
+  <div class="circle"></div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
