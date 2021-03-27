@@ -23,8 +23,6 @@ font-size: 36pt;
 font-family: 'Lobster', cursive;
 color:rgba(236,70,70, 0.9);
 position: relative;
-border-left-style: solid;
-border-left-color: #ada452; 
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 #cabecalho h2{
