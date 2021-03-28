@@ -19,9 +19,9 @@ padding: 40px;
 }
 
 h1{
-font-size: 36pt;
+font-size: 40pt;
 font-family: 'Lobster', cursive;
-color:rgba(236,70,70, 0.9);
+color:rgba(236,70,70, 0.8);
 position: relative;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
@@ -135,10 +135,10 @@ font-family: 'Poppins', sans-serif;
 position: absolute;
 height: 100%;
 width: 100%;
-background: #ec4646;
+background: rgba(236, 70, 70, 0.9);
 top:0;
 left: 0;
-clip-path: circle(22.2% at 92% 9%);
+clip-path: circle(27.5% at 94% 6%);
 z-index: -1;
 }
 
@@ -154,16 +154,7 @@ animation-name: move;
 animation-duration:500ms;
 animation-delay: 250ms;
 }
-#circle2{
-position: absolute;
-height: 100%;
-width: 100%;
-background:rgba(173, 164, 82, 0.7);
-top:0;
-left: 0;
-clip-path: circle(18.4% at 29% 1%);
-z-index: -1;
-}
+
 #circle1{
 position: absolute;
 height: 100%;
@@ -171,19 +162,28 @@ width: 100%;
 background: rgba(236, 70, 70, 0.9);
 top:0;
 left: 0;
-clip-path: circle(25.4% at 0 48%);
+clip-path: circle(90.4% at 0 60%);
 z-index: -1;
 }
 #box1{
 width: 50%;
 text-align: center;
 padding:30px;
+}
 
+#box1 h1{
+    font-size: 50pt;
+    font-family: 'Lobster', cursive;
+    color:white;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 #box1 h2{
-color: rgba(173, 164, 82);
-text-shadow: 1px 1px 1px rgb(255, 255, 255);
+color: white;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 font-family: 'Poppins', sans-serif;
+font-size: 15px;
+text-transform: uppercase;
 
 }
 #box2{
@@ -323,12 +323,8 @@ align-items: center;
 justify-content: center;
 }
 #box1 h1{
-font-size: 30px;
+font-size: 40px;
 }
-#box1 h2{
-font-size: 20px;
-}
-
 #box1{
 color: white;
 text-align: center;
