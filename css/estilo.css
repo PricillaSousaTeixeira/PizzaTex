@@ -52,19 +52,20 @@
     .topnav a:hover {
      letter-spacing: 2px;
     }
-    .topnav a::before{
+   /* .topnav a::before{
     content: '';
     position: absolute;
     height: 4px;
     width: 10px;
     background: #ec4646;
     border-radius: 8px;
-    }
+    }*/
     .topnav .active {
-    color:#ada452;
+    color: #ec4646;
+    letter-spacing: 2px;
     }
     .topnav .active:hover{
-    color:#b4a734;
+    letter-spacing: 3px;
     }
     .topnav .icon {
     display: none;
